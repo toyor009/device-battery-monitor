@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-    <p>Welcome to your Vue.js app!</p>
-  </div>
+  <BatteryDashboard />
 </template>
-<script></script>
+
+<script setup lang="ts">
+import BatteryDashboard from '@/components/BatteryDashboard.vue';
+</script>
